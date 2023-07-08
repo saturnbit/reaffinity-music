@@ -1,0 +1,182 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+:root {
+  --max-width: 250px;
+}
+
+html, body {
+  font-family: 'Cantarell', sans-serif;
+  background: #111;
+  background-image: url("img/prism.png");
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  max-width: var(--max-width);
+  padding: 10px;
+  padding-top: 30px;
+}
+
+.cover {
+  display: block;
+  margin: 0 auto;
+  max-width: var(--max-width);
+  padding: 20px 10px;
+}
+
+.btn {
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px auto;
+  color: #fff;
+  display: block;
+  width: var(--max-width);
+}
+
+.btn:hover {
+  background: #fff;
+  border: 1px solid #fff;
+  color: #000;
+}
+
+.btn i {
+  padding-right: 5px;
+}
+
+.social-links {
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+}
+
+.social-links i {
+  padding-right: 5px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.signup {
+  max-width: var(--max-width);
+  padding-top: 15px;
+  margin: 0 auto;
+}
+
+hr {
+  margin-top: 2rem;
+  max-width: var(--max-width);
+}
+
+.signup input {
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid #b7cde4;
+  background: #111;
+  color: #fff;
+  width: var(--max-width);
+  margin: 10px 0;
+}
+
+input.subscribe {
+  border: 0px solid #fff;
+  background: #c8e2fd;
+  background: -moz-linear-gradient(-45deg,  #c8e2fd 0%, #6c7078 41%, #786a61 77%, #8f634b 100%);
+  background: -webkit-linear-gradient(-45deg,  #c8e2fd 0%,#6c7078 41%,#786a61 77%,#8f634b 100%);
+  background: linear-gradient(135deg,  #c8e2fd 0%,#6c7078 41%,#786a61 77%,#8f634b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c8e2fd', endColorstr='#8f634b',GradientType=1 );
+}
+
+
+h4 {
+  font-size: 12px;
+}
+
+.hide {
+  opacity: 0;
+}
