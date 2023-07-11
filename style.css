@@ -90,6 +90,10 @@ html, body {
   color: #fff;
 }
 
+body {
+  background: rgba(0,0,0,0.5);
+}
+
 .logo {
   display: block;
   margin: 0 auto;
@@ -114,12 +118,14 @@ html, body {
   color: #fff;
   display: block;
   width: var(--max-width);
+  text-decoration: none;
 }
 
 .btn:hover {
   background: #fff;
   border: 1px solid #fff;
   color: #000;
+  text-decoration: none;
 }
 
 .btn i {
@@ -137,6 +143,7 @@ html, body {
 .social-links i {
   padding-right: 5px;
 }
+
 
 .italic {
   font-style: italic;
@@ -180,3 +187,5 @@ h4 {
 .hide {
   opacity: 0;
 }
+
+
