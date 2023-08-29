@@ -94,6 +94,16 @@ body {
   background: rgba(0,0,0,0.5);
 }
 
+a {
+  color: #fff;
+}
+
+.social {
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px;
+}
+
 .logo {
   display: block;
   margin: 0 auto;
