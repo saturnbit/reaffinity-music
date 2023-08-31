@@ -108,7 +108,7 @@ a {
   display: block;
   margin: 0 auto;
   max-width: var(--max-width);
-  height: 50px;
+  height: auto;
   padding: 10px;
   padding-top: 30px;
 }
