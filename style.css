@@ -277,8 +277,8 @@ h4 {
 }
 
 .more-press {
-
-
+  display: inline-block;
+  padding: 15px 10px;
 }
 
 .more-press li {
@@ -310,6 +310,15 @@ text-transform:none;
 
 .text-lower {
   text-transform: none;
+}
+
+.quote {
+  font-size: 12px;
+  font-style: italic;
+  text-transform: none;
+  max-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
 
 hr {
