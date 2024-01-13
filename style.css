@@ -313,7 +313,7 @@ text-transform:none;
 }
 
 .quote {
-  font-size: 12px;
+  font-size: 14px;
   font-style: italic;
   text-transform: none;
   max-width: 300px;
@@ -330,6 +330,9 @@ hr {
 @media (max-width: 700px) {
   .c-50 {
     width: 100%;
+  }
+  .row {
+    padding: 0 5px;
   }
   .press {
     display: block;
