@@ -118,7 +118,7 @@ padding-left: 10px;
 }
 
 .header {
-  margin: 0 0 40px 0;
+  margin: 0;
   padding-top: 10px;
 }
 
@@ -139,21 +139,24 @@ nav a:hover, a.active {
 .cover {
   display: block;
   margin: 0 auto;
-  max-width: 300px;
+  max-width: 800px;
   height: auto;
-  padding: 15px 0;
+  width: 100%;
+  padding: 0;
 }
 
 .btn {
   background: transparent;
   border: 1px solid #eee;
   border-radius: 15px;
-  padding: 10px;
+  padding: 12px 10px 12px 55px;
   margin: 10px auto;
   color: #fff;
   display: block;
   text-decoration: none;
-  max-width: 300px;
+  max-width: 350px;
+  text-align: left;
+  position: relative;
 }
 
 .btn:hover {
@@ -165,6 +168,15 @@ nav a:hover, a.active {
 
 .btn i {
   padding-right: 5px;
+}
+
+.btn img {
+  height: 48px;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+
 }
 
 .stream-btn {
@@ -195,7 +207,6 @@ nav a:hover, a.active {
   display: block;
   margin: 0 auto;
   color: #fff;
-  text-align: center;
   font-size: 24px;
 }
 
@@ -232,6 +243,7 @@ input.subscribe {
   background: linear-gradient(135deg,  #c8e2fd 0%,#6c7078 41%,#786a61 77%,#8f634b 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c8e2fd', endColorstr='#8f634b',GradientType=1 );
   margin: 0 auto;
+  text-align: center;
 }
 
 
@@ -245,8 +257,9 @@ h4 {
 }
 
 .headline {
-  margin: 0 0 10px 0;
+  margin: 0 auto 10px auto;
   font-weight: 100;
+  max-width: 400px;
 }
 
 .press {
@@ -295,11 +308,12 @@ text-transform:none;
   text-align: center;
 }
 
+  text-align: center;
 .row {
   width: 100%;
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 10px;
   display: inline-block;
   text-align: left;
 }
