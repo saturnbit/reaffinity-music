@@ -259,7 +259,12 @@ h4 {
 .headline {
   margin: 0 auto 10px auto;
   font-weight: 100;
-  max-width: 400px;
+  max-width: 350px;
+}
+
+.section {
+  margin: 40px auto;
+  display: inline-block;
 }
 
 .press {
@@ -281,6 +286,7 @@ h4 {
   width: 100%;
   text-transform: none;
   margin-bottom: 20px;
+  text-align: left !important;
 }
 
 .press-list img {
@@ -292,6 +298,7 @@ h4 {
 .more-press {
   display: inline-block;
   padding: 15px 10px;
+  text-align: left;
 }
 
 .more-press li {
